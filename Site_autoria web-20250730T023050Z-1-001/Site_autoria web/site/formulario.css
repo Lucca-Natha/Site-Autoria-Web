@@ -1,0 +1,106 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 900px;
+}
+
+header, footer {
+    background-color: #330033;
+    text-align: center;
+    padding: 16px;
+    color: #ff4c8b;
+}
+
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 16px;
+}
+
+.candidate-form {
+    background-color: #1a1a1a;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ff007f;
+    max-width: 400px;
+    width: 100%;
+}
+
+.candidate-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ff007f;
+}
+
+.candidate-form input,
+.candidate-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 19.2px;
+    border-radius: 5px;
+    border: 1px solid #ff007f;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.candidate-form input::placeholder,
+.candidate-form textarea::placeholder {
+    color: #bbb;
+}
+
+.candidate-form input:focus,
+.candidate-form textarea:focus {
+    outline: none;
+    border-color: #ff66b2;
+    box-shadow: 0 0 5px #ff66b2;
+}
+
+.candidate-form button {
+    background-color: #ff007f;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17.6px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.candidate-form button:hover {
+    background-color: #e60073;
+}
+
+footer p {
+    margin: 0;
+    font-style: italic;
+    font-size: 14.4px;
+}
+.voltar {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.voltar a {
+    color: #ff007f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.voltar a:hover {
+    text-decoration: underline;
+}

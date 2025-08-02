@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Candidatar-se ao Round 6</title>
+    <link rel="stylesheet" href="formulario.css" />
+</head>
+<body>
+    <header>
+    <h1>Participe do Próximo Jogo - Round 6</h1>
+    </header>
+
+    <main>
+    <form action="#" method="POST" class="candidate-form">
+    <label for="name">Nome Completo:</label>
+    <input type="text" id="name" name="name" placeholder="Seu nome completo" required />
+
+    <label for="age">Idade:</label>
+    <input type="number" id="age" name="age" min="18" max="100" placeholder="Sua idade" required />
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required />
+
+    <label for="phone">Telefone:</label>
+    <input type="tel" id="phone" name="phone" placeholder="(xx) xxxx-xxxx" />
+
+    <label for="reason">Por que você quer participar?</label>
+    <textarea id="reason" name="reason" rows="4" placeholder="Conte-nos sua motivação..." required></textarea>
+
+    <button type="submit">Enviar Candidatura</button>
+    </form>
+    </main>
+
+    <footer>
+    <p>Boa sorte! Mas lembre-se: faça de tudo para ganhar!</p>
+    </footer>
+</div>
+<p class="voltar">
+        <a href="index.html">← Voltar para o Início</a>
+    </p>
+</body>
+</html>

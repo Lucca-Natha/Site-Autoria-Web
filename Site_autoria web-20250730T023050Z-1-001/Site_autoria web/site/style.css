@@ -1,0 +1,104 @@
+body {
+    background-color: #000;
+    color: #eee;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #111;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+nav ul li a {
+    color: #ed1b76;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff80ab;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem 5%;
+}
+
+h2 {
+    color: #ed1b76;
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    border-bottom: 2px solid #ed1b76;
+    padding-bottom: 0.3rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    background-color: #121212;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(237, 27, 118, 0.4);
+}
+
+table thead {
+    background-color: #ed1b76;
+    color: #fff;
+}
+
+table th, table td {
+    padding: 0.75rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    font-size: 0.95rem;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+em {
+    display: block;
+    color: #aaa;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    color: #ed1b76;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff80ab;
+}
+
+video {
+    display: block;
+    margin: 2rem auto;
+    width: 70%;
+    max-width: 500px;
+    height: auto;
+    border: 2px solid #ed1b76;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(237, 27, 118, 0.5);
+}
