@@ -1,2 +1,2 @@
-# Site-Autoria-Web
-Repositório Trabalho de Autoria Web
+# Site-trabalho-Autoria-Web
+Repositório para um trabalho de Autoria Web
