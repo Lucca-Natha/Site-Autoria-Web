@@ -25,7 +25,7 @@ main {
     padding: 32px 16px;
 }
 
-.candidate-form {
+.formulário_candidatura {
     background-color: #1a1a1a;
     padding: 32px;
     border-radius: 10px;
@@ -34,15 +34,15 @@ main {
     width: 100%;
 }
 
-.candidate-form label {
+.formulário_candidatura label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
     color: #ff007f;
 }
 
-.candidate-form input,
-.candidate-form textarea {
+.formulário_candidatura input,
+.formulário_candidatura textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 19.2px;
@@ -55,19 +55,19 @@ main {
     resize: vertical;
 }
 
-.candidate-form input::placeholder,
-.candidate-form textarea::placeholder {
+.formulário_candidatura input::placeholder,
+.formulário_candidatura textarea::placeholder {
     color: #bbb;
 }
 
-.candidate-form input:focus,
-.candidate-form textarea:focus {
+.formulário_candidatura input:focus,
+.formulário_candidatura textarea:focus {
     outline: none;
     border-color: #ff66b2;
     box-shadow: 0 0 5px #ff66b2;
 }
 
-.candidate-form button {
+.formulário_candidatura button {
     background-color: #ff007f;
     color: #000;
     font-weight: bold;
@@ -80,7 +80,7 @@ main {
     width: 100%;
 }
 
-.candidate-form button:hover {
+.formulário_candidatura button:hover {
     background-color: #e60073;
 }
 
